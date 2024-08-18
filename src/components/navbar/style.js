@@ -41,6 +41,12 @@ font-weight: 600;
 line-height: normal;
 }
 `;
+export const MotoCon = styled.div`
+display: flex;
+gap: 5px;
+`;
+
+
 export const RightCon = styled.div`
 flex: 1;
 display: flex;
@@ -60,5 +66,10 @@ font-style: normal;
 font-weight: 500;
 line-height: normal;
 }
+`;
+
+export const Input1 = styled.div`
+display: flex;
+gap: 8px;
 `;
 

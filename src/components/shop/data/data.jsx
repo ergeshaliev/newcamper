@@ -1,7 +1,10 @@
 import React from 'react'
-import { BrandRang, BrandStar, BranWrapp, BtnWrapp, CardWrapp, CartWrapp, Container, ItemInfo, ItemLeft, ItemLine, ItemRight, ItemWrap, Right2, Right3 } from './style'
+import { BrandRang, BrandStar, BranWrapp, BtnWrapp, CardWrapp, CartWrapp, Container, Input1, Input2, Input3, InputImg, ItemInfo, ItemLeft, ItemLine, ItemRight, ItemWrap, Right2, Right3, SortCon } from './style'
 import car from "../../../assets/car.svg"
 import staricon from "../../../assets/star-icon.svg"
+import strelka from "../../../assets/strl.svg"
+import inputimg from "../../../assets/HMenu.svg"
+import inputimg1 from "../../../assets/VMenu.svg"
 
 const DataComponent = () => {
   return (
@@ -13,19 +16,36 @@ const DataComponent = () => {
             <p>25.156</p>
           </ItemLeft>
           <ItemRight>
-            <p>Sort by</p>
-            <input type="text" />
+            <SortCon>
+              <p>Sort by</p>
+              <input type="text"placeholder='Select' />
+            </SortCon>
+            <Input1>
+              <p></p>
+              <img src={strelka} alt="icon" />
+            </Input1>
             <Right2>
-              <input type="text" />
+              <input type="text" placeholder='60'/>
+              <Input2>
+               <p></p>
+               <img src={strelka} alt="" />
+              </Input2>
             </Right2>
             <Right3>
-              <input type="text" />
+              <Input3>
+                 <p></p>
+                 <img src={inputimg} alt="icon" />
+              </Input3>
+              <InputImg>
+                  <p></p>
+                  <img src={inputimg1} alt="icon" />
+              </InputImg>
             </Right3>
-            <p></p>
+             <p></p>
           </ItemRight>
         </ItemInfo>
         <ItemLine>
-          <div></div>
+          <p></p>
         </ItemLine>
       </ItemWrap>  
 

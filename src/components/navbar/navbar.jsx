@@ -1,5 +1,5 @@
 import React from 'react'
-import { Container, LeftCon, Logo, MidCon, RightCon } from './style'
+import { Container, Input1, LeftCon, Logo, MidCon, MotoCon, RightCon } from './style'
 import logo from "../../assets/Camper.svg"
 import cart from "../../assets/cart.svg"
 import profile from "../../assets/profile.svg"
@@ -16,19 +16,29 @@ const NavbarComponent = () => {
         <Logo src={ logo}/>
       </LeftCon>
       <MidCon>
-        <p>Motor</p>
-        <img src={str1} alt="" />
-        <p>Caravan</p>
-        <img src= {str2} alt="" />
-        <p>Tuning</p>
-        <img src= {str3} alt="" />
-        <p>Used Car</p>
-        <img src={str4} alt="" />
+        <MotoCon>
+          <p>Motor</p>
+          <img src={str1} alt="" />
+        </MotoCon>
+        <MotoCon>
+          <p>Caravan</p>
+          <img src= {str2} alt="" />
+        </MotoCon>
+        <MotoCon>
+          <p>Tuning</p>
+          <img src= {str3} alt="" />
+        </MotoCon>
+        <MotoCon>
+          <p>Used Car</p>
+          <img src={str4} alt="" />
+        </MotoCon>
         <p>Camping Place</p>
       </MidCon>
       <RightCon>
-        <img src={cart} alt="cart-icon" />
-        <img src={profile} alt="prodile-icon" />
+         <Input1>
+          <img src={cart} alt="cart-icon" />
+          <img src={profile} alt="prodile-icon" />
+        </Input1>
         <p>EN</p>
         <img src={lang} alt="lang-icon" />
       </RightCon>

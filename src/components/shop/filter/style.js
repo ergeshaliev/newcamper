@@ -1,7 +1,6 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-flex: 1;
 padding: 20px;
 `;
 
@@ -9,6 +8,7 @@ export const ContainerWrapp = styled.div`
 padding: 40px;
 display: flex;
 flex-direction: column;
+align-items: center;
 gap: 20px;
 `;
 
@@ -85,9 +85,6 @@ font-size: 18px;
 font-style: normal;
 font-weight: 600;
 line-height: 100%;
-}
-img{
-margin-right: 75px;
 }
 `;
 export const LineCon = styled.div`
