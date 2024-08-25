@@ -8,6 +8,7 @@ import str1 from "../../assets/gromet-icon.svg"
 import str2 from "../../assets/gromet-icon.svg"
 import str3 from "../../assets/gromet-icon.svg"
 import str4 from "../../assets/gromet-icon.svg"
+import { Link } from 'react-router-dom'
 
 const NavbarComponent = () => {
   return (
@@ -16,28 +17,43 @@ const NavbarComponent = () => {
         <Logo src={ logo}/>
       </LeftCon>
       <MidCon>
+        <Link></Link>
+          <MotoCon>
+            <Link to={"/motor"}>
+             <p>Motor</p>
+            </Link>
+            <img src={str1} alt="" />
+          </MotoCon>
         <MotoCon>
-          <p>Motor</p>
-          <img src={str1} alt="" />
-        </MotoCon>
-        <MotoCon>
-          <p>Caravan</p>
+          <Link to={"/caravan"}>
+           <p>Caravan</p>
+          </Link>
           <img src= {str2} alt="" />
         </MotoCon>
         <MotoCon>
-          <p>Tuning</p>
+          <Link to ={"/tuning"} >
+           <p>Tuning</p>
+          </Link>
           <img src= {str3} alt="" />
         </MotoCon>
         <MotoCon>
-          <p>Used Car</p>
+          <Link to = {"/usedcar"}>
+           <p>Used Car</p>
+          </Link>
           <img src={str4} alt="" />
         </MotoCon>
-        <p>Camping Place</p>
+        <Link to = {"/camping"}>
+          <p>Camping Place</p>
+        </Link>
       </MidCon>
       <RightCon>
          <Input1>
-          <img src={cart} alt="cart-icon" />
-          <img src={profile} alt="prodile-icon" />
+          <Link to = {"/cart"}>
+            <img src={cart} alt="cart-icon" />
+          </Link>
+          <Link to = {"/login"}>
+            <img src={profile} alt="prodile-icon" />
+          </Link>
         </Input1>
         <p>EN</p>
         <img src={lang} alt="lang-icon" />

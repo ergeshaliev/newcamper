@@ -2,6 +2,7 @@ import React from 'react'
 import { AidalCon, BrandCon, BrandWrap, BtnWrapp, Container, ContainerWrapp, CostWrapp, FromCon, FromTo, LastCon, LastConText, LastConWall, LastWrapp, LineCon, TextWrapp, ToCon, } from './style'
 import strelka from "../../../assets/strelka.svg"
 import lastconimg from "../../../assets/lastconicon.svg"
+import { Link } from 'react-router-dom'
 
 const FilterComponent = () => {
   return (
@@ -31,8 +32,10 @@ const FilterComponent = () => {
         </LineCon>
         <TextWrapp>
           <AidalCon>
-            <input type="checkbox" />
-            <label htmlFor="">Aidal</label>
+             <input type="checkbox" />
+             <Link to = {"/aidal"}>
+             <label htmlFor="">Aidal</label>
+             </Link>
           </AidalCon>
           <AidalCon>
             <input type="checkbox" />

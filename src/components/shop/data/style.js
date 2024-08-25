@@ -156,6 +156,7 @@ border: 1px solid rgba(55, 55, 55, 0.30);
 margin: 0;
 }
 img{
+margin-bottom: -12px;
 margin-left: -33px;
 }
 
