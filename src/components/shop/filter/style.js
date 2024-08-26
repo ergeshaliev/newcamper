@@ -1,11 +1,9 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-padding: 20px;
+margin-top: 58px;
 `;
-
 export const ContainerWrapp = styled.div`
-padding: 40px;
 display: flex;
 flex-direction: column;
 align-items: center;
@@ -13,7 +11,6 @@ gap: 20px;
 `;
 
 export const CostWrapp = styled.div`
-
 h4{
 color: var(--text, #373737);
 font-size: 18px;

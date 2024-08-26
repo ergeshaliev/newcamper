@@ -1,14 +1,22 @@
 import React from 'react'
 import WallpaperComponent from '../../wallpaper'
-import ShopComponent from '../../shop/shop'
+import FilterComponent from '../../shop/filter/filter'
+import ItemComponent from '../../item/item'
+import { Container, DataWrapp, MainCon } from './style'
+import DataComponent from '../../shop/data/data'
 
 const MotorComponent = () => {
   return (
-    <div>
+    <MainCon>
       <WallpaperComponent/>
-      <ShopComponent/>
-
-    </div>
+      <Container>
+       <FilterComponent/>
+       <DataWrapp>
+        <ItemComponent/>
+        <DataComponent/>
+       </DataWrapp>
+      </Container>
+    </MainCon>
   )
 }
 

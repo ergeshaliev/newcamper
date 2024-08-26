@@ -28,7 +28,7 @@ const RegisterComponent = () => {
                         <input type="checkbox" />
                         <p>Keep me logged in</p>
                   </KeepCon>
-                  <Link to ={"/login"}>
+                  <Link to = {"/login"}>
                     <BtnWrapp>
                         <button>REGISTRATE</button>
                     </BtnWrapp>

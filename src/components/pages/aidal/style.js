@@ -11,11 +11,11 @@ background-image: url(${bg});
 background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
-height: 900px;
 display: flex;
 justify-content: center;
 align-items: center;
 flex-direction: column;
+height: 700px;
 p{
 width: 509.208px;
 height: 76.407px;
@@ -51,7 +51,7 @@ margin-top: 40px;
 `;
 
 export const Wrapper = styled.div`
-height: 5000px;
+height:3000px;
 display: flex;
 flex-direction: column;
 align-items: center;
