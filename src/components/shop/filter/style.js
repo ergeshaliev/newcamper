@@ -128,14 +128,18 @@ width: 115.804px;
 height: 38.968px;
 flex-shrink: 0;
 border-radius: 60px;
-background: var(--sariq, #FF7A00);
 box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.10);
 border: none;
-color: #FFF;
+color:  #FF7A00;
 font-size: 16px;
 font-style: normal;
 font-weight: 700;
 line-height: normal;
+border: 2px solid #FF7A00;
+}
+:hover{
+background: var(--sariq, #FF7A00);
+color: #FFF;
 }
 `;
 
@@ -171,4 +175,36 @@ box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.10);
 export const LastWrapp = styled.div`
 display: flex;
 gap: 7px;
+`;
+
+export const BtnWrapp2 = styled.div`
+display: flex;
+gap: 15px;
+margin-top: 50px;
+button{
+width: 115.804px;
+height: 38.968px;
+flex-shrink: 0;
+border-radius: 60px;
+box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.10);
+border: none;
+color:  #006DAB;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+border: 2px solid #006DAB;
+}
+:hover{
+border-radius: 60px;
+background: var(--blue, #006DAB);
+color: #FFF;
+}
+`;
+
+export const BtnConn = styled.div`
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 10px;
 `;

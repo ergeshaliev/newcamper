@@ -1,7 +1,8 @@
 import React from 'react'
-import { Container, MainCon } from './style'
-import WallpaperComponent from '../../wallpaper'
-import ShopComponent from '../../shop/shop'
+import { Body, Container, DataWrapp, MainCon } from './style'
+import ItemComponent from '../../item/item'
+import FilterComponent from '../../shop/filter/filter'
+import DataComponent from '../../shop/data/data'
 
 const CaravanComponent = () => {
   return (
@@ -11,7 +12,13 @@ const CaravanComponent = () => {
        <h3>Our ranges</h3>
        <h2>Caravan</h2>
      </Container>
-     <ShopComponent/>
+     <Body>
+      <FilterComponent/>
+      <DataWrapp>
+      <ItemComponent/>
+      <DataComponent/>
+      </DataWrapp>
+     </Body>
     </MainCon> 
   )
 }

@@ -14,7 +14,9 @@ const NavbarComponent = () => {
   return (
     <Container>
       <LeftCon>
-        <Logo src={ logo}/>
+        <Link to = {"/mainpage"}>
+         <Logo src={ logo}/>
+        </Link>
       </LeftCon>
       <MidCon>
         <Link></Link>
@@ -48,9 +50,7 @@ const NavbarComponent = () => {
       </MidCon>
       <RightCon>
          <Input1>
-          <Link to = {"/cart"}>
             <img src={cart} alt="cart-icon" />
-          </Link>
           <Link to = {"/login"}>
             <img src={profile} alt="prodile-icon" />
           </Link>

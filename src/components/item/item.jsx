@@ -3,6 +3,7 @@ import { Container, Hmenu, HVmenu, Input1, Input2, InputWrapp, ItemCon, Line, Ma
 import hmenu from "../../assets/HMenu.svg"
 import vmenu from "../../assets/VMenu.svg"
 import str from "../../assets/strelka.svg"
+import { Link } from 'react-router-dom'
 
 const ItemComponent = () => {
   return (
@@ -30,11 +31,15 @@ const ItemComponent = () => {
                    <HVmenu>
                     <Hmenu>
                          <p></p>
-                        <img src={hmenu} alt="icon" />
+                         <Link to = {"/hmenu"}>
+                          <img src={hmenu} alt="icon" />
+                        </Link>
                     </Hmenu>
                      <Vmenu>
                         <p></p>
-                        <img src={vmenu} alt="icon" />
+                        <Link to = {"/vmenu"} >
+                         <img src={vmenu} alt="icon" />
+                        </Link>
                     </Vmenu>
                    </HVmenu>
                   </InputWrapp> 

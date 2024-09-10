@@ -54,9 +54,8 @@ export const campcar = {
               "Importantly, you will need to pay to stay at a campground, and while some campgrounds are first-come, first-served, most require reservations well in advance, especially if you want to camp in a national park. ",
             word4:
               "Fuel heating is now very popular in the industry, but this was not always the case; Camper (once again) led the way in this area over 15 years ago. One of the advantages it offers is that it can heat up your vehicle while you drive, for a more comfortable arrival.",
-          },
-          //   //photo: `${camp}`,
-          //   //photo1: `${insidecamp}`,
+            },
+          //   // photo: `${camp}`,
           //   //photo2: `${insidecamp1}`,
           //   //photo3: `${insidecamp2}`,
           //   //photo4: `${easyaccess}`,

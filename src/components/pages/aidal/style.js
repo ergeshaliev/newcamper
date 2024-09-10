@@ -33,12 +33,15 @@ margin: 0;
 export const BtnCon = styled.div`
 display: flex;
 gap: 15px;
+:hover{
+background-color: #006DAB;
+color: #FFF;
+}
 button{
 width: 181.5px;
 height: 50.014px;
 flex-shrink: 0;
 border-radius: 10px;
-background: var(--blue, #006DAB);
 color: #FFF;
 font-size: 16px;
 font-style: normal;
@@ -47,6 +50,8 @@ line-height: normal;
 border: none;
 cursor: pointer;
 margin-top: 40px;
+background-color: transparent;
+border: 3px solid #FFF;
 }
 `;
 
@@ -364,28 +369,48 @@ export const Con6Right = styled.div`
 display: flex;
 justify-content: center;
 `;
-
 export const BtnLeft = styled.div`
 display: flex;
+:hover{
+background-color: #006DAB;
+color: #FFF;
+border-radius: 10px;
+}
 button{
 width: 180px;
 height: 50px;
 flex-shrink: 0;
 border-radius: 10px;
-background: var(--blue, #006DAB);
 border: none;
-color: white;
+color: #006DAB;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+border-color: transparent;
+border: 2px solid  #006DAB;
 }
 `;
 export const BtnRight = styled.div`
 display: flex;
+:hover{
+background-color: #006DAB;
+border-radius: 10px;
+color: #FFF;
+}
 button{
 width: 180px;
 height: 50px;
+flex-shrink: 0;
 border-radius: 10px;
-border: 2px solid #006DAB;
-border-color: #006DAB;
+border: none;
 color: #006DAB;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+border-color: #FFF;
+border: 2px solid  #006DAB;
 }
 `;
 

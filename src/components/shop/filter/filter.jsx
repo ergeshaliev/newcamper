@@ -1,5 +1,5 @@
 import React from 'react'
-import { AidalCon, BrandCon, BrandWrap, BtnWrapp, Container, ContainerWrapp, CostWrapp, FromCon, FromTo, LastCon, LastConText, LastConWall, LastWrapp, LineCon, TextWrapp, ToCon, } from './style'
+import { AidalCon, BrandCon, BrandWrap, BtnConn, BtnWrapp, BtnWrapp2, Container, ContainerWrapp, CostWrapp, FromCon, FromTo, LastCon, LastConText, LastConWall, LastWrapp, LineCon, TextWrapp, ToCon, } from './style'
 import strelka from "../../../assets/strelka.svg"
 import lastconimg from "../../../assets/lastconicon.svg"
 import { Link } from 'react-router-dom'
@@ -141,10 +141,14 @@ const FilterComponent = () => {
         </TextWrapp>
 
         </BrandCon>
+        <BtnConn>
         <BtnWrapp>
           <button>Cancel</button>
-           <button style={{backgroundColor:"#006DAB"}}>Search</button>
         </BtnWrapp>
+        <BtnWrapp2>
+         <button>Search</button>
+        </BtnWrapp2>
+        </BtnConn>
         <LastCon>
           <LastConText>
             <p>Compare</p>
@@ -167,8 +171,6 @@ const FilterComponent = () => {
 
 
       </ContainerWrapp>
-
-
     </Container>
     
   )

@@ -102,6 +102,11 @@ align-items: center;
 gap: 16px;
 color: white;
 margin-top: 8px;
+:hover{
+background-color: #006DAB;
+color: #FFF;
+}
 `;
+
 
 

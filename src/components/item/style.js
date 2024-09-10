@@ -148,7 +148,6 @@ cursor: pointer;
 `;
 export const  HVmenu = styled.div`
 display: flex;
-gap: 11px;
 margin-right: 4px;
 `;
 

@@ -7,8 +7,8 @@ padding: 30px;
 display: flex;
 justify-content: center;
 align-items: center;
-/* border: 1px solid black; */
 height: 30px;
+box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.10);
 `;
 export const LeftCon = styled.div`
 flex: 1;

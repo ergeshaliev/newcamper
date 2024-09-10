@@ -22,7 +22,7 @@ margin: 0;
 }
 p{
 color: #FFF;
-font-size: 16px;
+font-size: 20px;
 font-style: normal;
 font-weight: 500;
 line-height: normal;
@@ -66,5 +66,11 @@ font-weight: 400;
 line-height: normal;
 margin: 0;
 margin-top: 5px;
+}
+img{
+width: 395px;
+height: 300px;
+flex-shrink: 0;
+border-radius: 10px;
 }
 `;

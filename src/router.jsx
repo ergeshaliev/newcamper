@@ -12,6 +12,8 @@ import AidalComponent from './components/pages/aidal/aidal';
 import LoginComponent from './components/auth/login/login';
 import RegisterComponent from './components/auth/register/register';
 import { Route, Routes, useLocation } from 'react-router-dom';
+import MainComponent from './components/pages/mainpage/main';
+import Campinginfo from './components/pages/camping info/campinginfo';
 
 const RouterComponent = () => {
       const location = useLocation();
@@ -29,11 +31,18 @@ const RouterComponent = () => {
       <Route path="/camping" element={<CampingComponent/>}/>
       <Route path="/cart" element={<CartComponent/>}/>
       <Route path="/vmenu" element={<VmenuComponent/>}/>
+      <Route path="/hmenu" element={<MotorComponent/>}/>
       <Route path="/aidal" element={<AidalComponent/>}/>
       <Route path="/login" element={<LoginComponent/>}/>
       <Route path="/register" element={<RegisterComponent/>}/>
       <Route path="/register" element={<LoginComponent/>}/>
       <Route path="/login" element={<MotorComponent/>}/>
+      <Route path="/motor/:id" element={<AidalComponent/>}/>
+      <Route path="/motor" element={<MotorComponent/>}/>
+      <Route path="/mainpage" element={<MainComponent/>}/>
+      <Route path="/camping info" element={<Campinginfo/>}/>
+      <Route path="/camping/:id" element={<Campinginfo/>}/>
+      
     </Routes>
      {!Navbarhidden && <FooterComponent/>}
 
